@@ -10,7 +10,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackageClasses = {"package1", "package2"})
 public class DiDemoApplication {
 
 	public static void main(String[] args) {
